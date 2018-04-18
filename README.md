@@ -2,7 +2,7 @@
 
 ## Language Translation
 
-[image1]: ./images/language-translation_screenshot.png "Language Translation Screenshot"
+[image1]: ./language-translation_screenshot.png "Language Translation Screenshot"
 
 ### Project Overview
 
