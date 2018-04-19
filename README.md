@@ -51,3 +51,4 @@ Often you'll be writing data out, things like TensorFlow checkpoints. Or, update
 ### TODO
 
 * Train this model on the [WMT10 French-English corpus](http://www.statmt.org/wmt10/training-giga-fren.tar)
+* Keep pre-process functions in a separated notebook
