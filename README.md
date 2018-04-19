@@ -43,7 +43,7 @@ Often you'll be writing data out, things like TensorFlow checkpoints. Or, update
 
 > floyd output run_ID
 
-### Install environment, Test
+### Test and Demo
 
 * [Test](http://localhost:8888/notebooks/dlnd_language_translation.ipynb)
 * [Demo](https://www.floydhub.com/nvmoyar/projects/text-translation)
