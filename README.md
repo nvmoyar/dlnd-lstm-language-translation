@@ -21,10 +21,9 @@ We could visualize the input words passed as one-hot encoded vectors, and on thi
 
 This network uses element-wise gradient clipping when it exceeds an absolute threshold. Although it introduces an additional hyperparameter, this parameter has not been exposed jointly with the rest of the hyperparameters to tune in this neural graph. Thresholds have been manually established in [-1., 1.]. 
 
-Eventually, we train, save the model and after pre-process a testing sentence, we are able to do inference and get a translation of a new sequence of words. 
+Finally, we train, save the model, and after pre-process a testing sentence, we are able to do inference and get a translation of a new small sequence of words. 
 
 ![Language Translation Screenshot][image1]
-
 
 ### Install and Requirements
 
@@ -48,3 +47,7 @@ Often you'll be writing data out, things like TensorFlow checkpoints. Or, update
 
 * [Test](http://localhost:8888/notebooks/dlnd_language_translation.ipynb)
 * [Demo](https://www.floydhub.com/nvmoyar/projects/text-translation)
+
+### TODO
+
+* Train this model on the [WMT10 French-English corpus](http://www.statmt.org/wmt10/training-giga-fren.tar)
